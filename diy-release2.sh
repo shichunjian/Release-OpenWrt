@@ -65,7 +65,7 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 
 
 # Add ShadowSocksR Plus+
-git clone https://github.com/fw876/helloworld package/lean/ssrp
+git clone https://github.com/fw876/helloworld/tree/dfb82d0805346936f8e1338586834b3ae5057cca package/lean/ssrp
 
 
 # Add Passwall
