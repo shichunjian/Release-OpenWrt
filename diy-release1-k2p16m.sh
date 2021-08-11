@@ -16,3 +16,7 @@
 
 # K2P原版内存地址修复
 sed -i 's/<80000000>/<10000000>/g' target/linux/ramips/dts/mt7621_phicomm_k2p.dts
+
+
+# 编译5.10内核
+sed -i 's/5.4/5.10/g' target/linux/ramips/Makefile
